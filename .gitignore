@@ -1,0 +1,32 @@
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Ambiente Virtual e Cache (CRÍTICO - Não deve ser versionado)
+venv/
+.venv/
+env/
+.env
+
+# Arquivos Gerados pelo Python
+__pycache__/
+*.pyc
+
+# Arquivos Gerados pelo Django (CRÍTICO)
+# 1. Banco de Dados local
+db.sqlite3
+
+# 2. Arquivos de log e sessão
+*.log
+*.sqlite3-journal
+sessions/
+
+# 3. Arquivos de mídia e estáticos (que geralmente são ignorados e gerados em produção)
+# Se você usa pastas para uploads, deve ignorar seu conteúdo
+# media/
+
+# 4. Arquivos do VS Code (Configurações locais de usuário)
+.vscode/
+
+# 5. Cache de outras bibliotecas (ex: cache de análise)
+cache/
