@@ -1,0 +1,27 @@
+# Virtualenv
+venv/
+env/
+
+# Arquivos do Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+
+# Arquivos de configuração
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.idea/
+*.vscode/
+
+# Arquivos estáticos e media (gerados)
+staticfiles/
+media/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
